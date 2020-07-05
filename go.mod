@@ -3,14 +3,9 @@ module github.com/depscloud/tracker
 go 1.14
 
 require (
-	github.com/PuerkitoBio/goquery v1.5.1 // indirect
 	github.com/depscloud/api v0.1.6
 	github.com/ghodss/yaml v1.0.0
 	github.com/go-sql-driver/mysql v1.5.0
-	github.com/gogo/protobuf v1.3.1 // indirect
-	github.com/golang/protobuf v1.4.2 // indirect
-	github.com/grpc-ecosystem/grpc-gateway v1.14.6 // indirect
-	github.com/jackc/pgx v3.6.2+incompatible // indirect
 	github.com/jackc/pgx/v4 v4.7.1
 	github.com/jmoiron/sqlx v1.2.0
 	github.com/mattn/go-sqlite3 v2.0.3+incompatible
