@@ -5,12 +5,12 @@ import (
 	"crypto/tls"
 	"crypto/x509"
 	"fmt"
-	"github.com/depscloud/tracker/internal/checks"
 	"io/ioutil"
 	"net"
 	"os"
 
 	"github.com/depscloud/api/v1alpha/store"
+	"github.com/depscloud/tracker/internal/checks"
 	"github.com/depscloud/tracker/pkg/services"
 	"github.com/depscloud/tracker/pkg/services/graphstore"
 
