@@ -6,6 +6,7 @@ import (
 	"google.golang.org/grpc"
 )
 
+// RegisterSearchService registers the searchService implementation with the server
 func RegisterSearchService(server *grpc.Server, gs store.GraphStoreClient) {
 	tracker.RegisterSearchServiceServer(server, &searchService{gs: gs})
 }
