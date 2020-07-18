@@ -43,6 +43,7 @@ func registerV1Alpha(graphStoreClient store.GraphStoreClient, server *grpc.Serve
 	services.RegisterDependencyService(server, graphStoreClient)
 	services.RegisterModuleService(server, graphStoreClient)
 	services.RegisterSourceService(server, graphStoreClient)
+	services.RegisterSearchService(server, graphStoreClient)
 }
 
 func main() {
