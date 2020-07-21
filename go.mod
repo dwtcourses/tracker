@@ -3,6 +3,7 @@ module github.com/depscloud/tracker
 go 1.14
 
 require (
+	github.com/PuerkitoBio/goquery v1.5.1 // indirect
 	github.com/depscloud/api v0.1.9
 	github.com/ghodss/yaml v1.0.0
 	github.com/go-sql-driver/mysql v1.5.0
@@ -17,8 +18,8 @@ require (
 	github.com/stretchr/testify v1.6.1
 	golang.org/x/crypto v0.0.0-20200709230013-948cd5f35899 // indirect
 	golang.org/x/net v0.0.0-20200707034311-ab3426394381 // indirect
-	golang.org/x/sys v0.0.0-20200625212154-ddb9806d33ae // indirect
-	google.golang.org/genproto v0.0.0-20200715011427-11fb19a81f2c // indirect
+	golang.org/x/sys v0.0.0-20200720211630-cb9d2d5c5666 // indirect
+	google.golang.org/genproto v0.0.0-20200721032028-5044d0edf986 // indirect
 	google.golang.org/grpc v1.30.0
 	google.golang.org/protobuf v1.25.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
